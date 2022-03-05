@@ -5,7 +5,7 @@ getgenv().buyEgg = false;
 
 local remotepath = game:GetService("ReplicatedStorage").Aero.AeroRemoteServices;
 
-local clickMod = require(game:GetService("Players")["dababyletsgooooo12_3"].PlayerScripts.Aero.Controllers.UI.Click)
+local clickMod = require(game:GetService("Players").LocalPlayer.PlayerScripts.Aero.Controllers.UI.Click)
 
 
 function doTap()
@@ -176,3 +176,4 @@ end)
 -- for i,v in pairs(getconstants(mod.CalculatePetCapacity)) do
 --     print(i,v);
 -- end
+
